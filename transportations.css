@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -196,7 +195,7 @@ a {
 }
 
 .nav-links li {
-    position: relative; /* for dropdown positioning */
+    position: relative;
 }
 
 .nav-links li a {
