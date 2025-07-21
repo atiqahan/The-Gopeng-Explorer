@@ -133,7 +133,7 @@ html {
 }
 
 .hero-section p {
-    font-size: 22px;
+    font-size: 20px;
     position: relative;
     z-index: 2;
     animation: fadeInUp 1s ease-out 0.3s both;
@@ -283,7 +283,7 @@ html {
 }
 
 .food-card h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin: 20px 20px 15px;
     color: #8B5C40;
     position: relative;
@@ -292,12 +292,16 @@ html {
 }
 
 .food-card p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 20px 25px;
     color: #666;
     line-height: 1.6;
     position: relative;
     z-index: 2;
+}
+
+.food-card li {
+    margin: 20px;
 }
 
 /* Footer */

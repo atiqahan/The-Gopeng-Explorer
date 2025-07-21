@@ -205,7 +205,7 @@ section p {
 
 .facilities h3 {
     text-align: center;
-    font-size: 26px;
+    font-size: 25px;
     margin: 1px 0 1px 0;
     color: #000000;
 }
@@ -284,7 +284,7 @@ section p {
 .population-text {
   text-align: center;
   margin-top: 30px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .image-row {
@@ -309,7 +309,7 @@ section p {
 
 .caption {
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 15px;
   color: #333;
   text-align: center;
   font-style: italic;
@@ -342,7 +342,7 @@ section p {
 }
 
 .food-item p {
-  font-size: 16px;
+  font-size: 20px;
   text-align: justify;
 }
 

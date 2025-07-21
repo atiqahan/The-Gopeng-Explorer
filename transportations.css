@@ -35,14 +35,14 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 18px;
+  margin-bottom: 10px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
 }
 
 .hero-content p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
+  font-size: 18px;
+  margin-bottom: 15px;
   text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
 }
 
@@ -54,7 +54,7 @@ body {
   text-decoration: none;
   border-radius: 30px;
   font-weight: bold;
-  transition: background 0.3s, transform 0.3s;
+  transition: 0.3s, transform 0.3s;
 }
 
 .cta-button:hover {
@@ -65,19 +65,19 @@ body {
 .section-title {
   text-align: center;
   margin: 3rem 0 2rem;
-  font-size: 2rem;
+  font-size: 30px;
   color: #8B5C40;
 }
 
 .transport-grid, .booking-grid, .tips-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  gap: 15px;
   padding: 10px;
 }
 
 .transport-card, .booking-card, .tip-card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0,0,0,0.1);
@@ -99,27 +99,32 @@ body {
 }
 
 .transport-info, .booking-details {
-  padding: 1.2rem;
+  padding: 1px;
+}
+
+.booking-details a {
+  color: #0c195a;
 }
 
 .transport-info h3, .booking-card h3, .tip-card h3 {
-  font-size: 1.4rem;
-  margin-bottom: 0.8rem;
+  font-size: 25px;
+  margin: 15px;
   color: #8B5C40;
 }
 
-.transport-info p, .booking-details p, .tip-card ul {
-  font-size: 0.95rem;
-  color: #555;
+.transport-info p, .tip-card ul, .booking-details p {
+  font-size: 18px;
+  color: #040405;
+  margin: 20px;
 }
 
 .tip-card ul {
   list-style: disc inside;
-  padding-left: 1rem;
+  padding-left: 1px;
 }
 
 .tip-card ul li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1px;
 }
 
 .footer {
@@ -219,7 +224,7 @@ a {
 }
 
 .nav-links li a:hover {
-    background: rgba(245, 241, 232, 0.2);
+    background: rgba(239, 232, 245, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
